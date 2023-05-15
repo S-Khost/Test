@@ -1071,18 +1071,6 @@ for xd in range(10000):
     l='Chrome/97.0.4740.200 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
-    def uaku():
-    try:
-		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua : 
-			ugen.append(ub)
-	except:
-		a=requests.get('https://github.com/S-Khost/Test/blob/main/T.txt).text
-		ua=open('.bbnew.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
-		for un in aa:
-			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
 	
     aa='Mozilla/5.0 (Linux; Android 8.1.0;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
@@ -1098,7 +1086,18 @@ for xd in range(10000):
     l='JioBrowser/1.4.7 Chrome/69.0.3497.100 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
-    
+    def uaku():
+    try:
+		ua=open('bbnew.txt','r').read().splitlines()
+		for ub in ua : 
+			ugen.append(ub)
+	except:
+		a=requests.get('https://github.com/S-Khost/Test/blob/main/T.txt).text
+		ua=open('.bbnew.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua.write(un+'\n')
+		ua=open('.bbnew.txt','r').read().splitlines()
 
 logo = """
       \033[1;39m .########...######..##.....##
