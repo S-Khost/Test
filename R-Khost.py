@@ -1086,6 +1086,7 @@ for xd in range(10000):
     l='JioBrowser/1.4.7 Chrome/69.0.3497.100 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
+    def uaku():
     try:
 		ua=open('bbnew.txt','r').read().splitlines()
 		for ub in ua : 
